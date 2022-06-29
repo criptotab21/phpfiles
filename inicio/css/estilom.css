@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f9f7f4;
+}
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.cuerpo > .header {
+  height: 40px;
+  width: 100%;
+  background-color: #d9003b;
+  border-bottom: 1px solid #ae002f;
+  background-image: url("../img/barra.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.cuerpo > .header > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  color: white;
+}
+.cuepro > .main {
+  min-height: 335px;
+}
+.cuerpo > .main > form > .fgrupo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.cuerpo > .main > form > .fgrupo > input {
+  min-height: 44px;
+  line-height: 44px;
+  width: 100%;
+  margin: 9px 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(51, 46, 37, 1);
+  border: 1px solid rgba(218, 212, 203, 1);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #311d22;
+}
+.cuerpo > .main > form > .fgrupo > input:focus,input:active{
+    outline: none;
+}
+.cuerpo > .main > form > .fgrupo > input:disabled{
+    background-color: transparent;
+}
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #857363;
+}
+.cuerpo > .main > form > .fgrupo > button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    min-height: 44px;
+    width: 100%;
+    margin: 9px 9px;
+    font-size: 16px;
+    line-height: 44px;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #016FC0;
+    background-image: -moz-linear-gradient(top, rgba(1,124,194,1), rgba(1,111,174,1));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(1,124,194,1)), color-stop(1, rgba(1,111,174,1)) );
+    background-image: -ms-linear-gradient(top, rgba(1,124,194,1), rgba(1,111,174,1));
+    -webkit-box-shadow: inset 0 1px 0 rgb(0 74 145 / 60%);
+    -moz-box-shadow: inset 0 1px 0 rgba(0, 74, 145, .60);
+    box-shadow: inset 0 1px 0 rgb(0 74 145 / 60%);
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+.cuerpo > .main > form > .fgrupo > button:active{
+    font-size: 15px;
+    background: #013F83;
+    background-color: rgba(1,63,131,1);
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(1,63,131,1)), to(rgba(0,74,145,1)));
+    background-image: -webkit-linear-gradient(rgba(1,63,131,1), rgba(0,74,145,1));
+    background-image: -moz-linear-gradient(rgba(1,63,131,1), rgba(0,74,145,1));
+    background-image: -ms-linear-gradient(rgba(1,63,131,1), rgba(0,74,145,1));
+    background-image: linear-gradient(rgba(1,63,131,1), rgba(0,74,145,1));
+    -webkit-box-shadow: inset 0 1px 0 rgb(0 50 98);
+    -moz-box-shadow: inset 0 1px 0 rgba(0, 50, 98, 1);
+    box-shadow: inset 0 1px 0 rgb(0 50 98);
+}
+.cuerpo > .main > form > .fgrupo > button:disabled{
+  
+    background: #017CC2;
+    background: rgba(1,124,194,.40);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.cuerpo > .main > form > .fgrupo > a{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 400px;
+   color: #0000ff;
+   text-decoration: none;
+   margin-right: 20px;
+   margin-top: 30px;
+  }
+  .cuerpo > .piem{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin-top: 170px;
+  }

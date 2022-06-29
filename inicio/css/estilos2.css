@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "cnx-regular";
+  src: url("../fonts/cnx-regular.eot");
+  src: url("../fonts/cnx-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cnx-regular.woff2") format("woff2"),
+    url("../fonts/cnx-regular.woff") format("woff"),
+    url("../fonts/cnx-regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: "cnx-light";
+  src: url("../fonts/cnx-light.eot");
+  src: url("../fonts/cnx-light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cnx-light.woff2") format("woff2"),
+    url("../fonts/cnx-light.woff") format("woff"),
+    url("../fonts/cnx-light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: "cnx-light-italic";
+  src: url("../fonts/cnx-light-italic.eot");
+  src: url("../fonts/cnx-light-italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cnx-light-italic.woff2") format("woff2"),
+    url("../fonts/cnx-light-italic.woff") format("woff"),
+    url("../fonts/cnx-light-italic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-variant: normal;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+body > .cuerpo {
+  max-width: 980px;
+  width: 100%;
+}
+.cuerpo > .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.cuerpo > .header2 {
+  margin-top: -10px;
+  background-color: #dc1431;
+}
+.cuerpo > .header2 > h1 {
+  font-family: "cnx-regular", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #fff;
+  margin-left: 25px;
+}
+.cuerpo > .section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.cuerpo > .section > .principal {
+  max-width: 60%;
+  width: 60%;
+}
+.cuerpo > .section > .principal > h2 {
+  margin-top: 30px;
+  font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.cuerpo > .section > .principal > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.cuerpo > .section > .principal > form > .fgrupo {
+  margin-bottom: 20px;
+}
+.cuerpo > .section > .principal > form > .fgrupo > label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  display: block;
+}
+.cuerpo > .section > .principal > form > .fgrupo > input{
+  width: 202px;
+}
+.cuerpo > .section > .principal > .error {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: white;
+}
+
+.cuerpo > .section > .principal > form > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.cuerpo > .section > .derecha > img {
+  margin-top: 25px;
+}
+.cuerpo > .footer {
+  margin-top: 20px;
+}
+.btn {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #666666;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1px 10px 4px;
+  cursor: pointer;
+}
+.formcard {
+  background-image: url(../img/card2.png);
+  background-repeat: no-repeat;
+  background-position-y: initial;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.btn.principal {
+  color: white;
+  border: 2px solid #5b89c1;
+  background: linear-gradient(to top, #2d67af 50%, #5b89c1 50%);
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn-card {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 7px 15px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  width: 93px;
+  height: 30px;
+  margin-top: 250px;
+}
+.bton-azul {
+  border: 1px solid #124e89;
+  background-image: linear-gradient(#007dc3, #0067b1);
+  color: #fff;
+}
+.bton-azul:hover {
+  background-image: linear-gradient(#0067b1, #007dc3);
+  color: #fff;
+}
+.btncardnew {
+  margin-left: 5px;
+  padding: 2px 10px 3px 11px;
+  font-size: 15px;
+  font-weight: 700;
+  width: 74px;
+  border-radius: 8px;
+  box-shadow: 0px -1px 7px -5px rgb(0 0 0 / 75%) inset;
+  -webkit-box-shadow: 0px -1px 7px -5px rgb(0 0 0 / 75%) inset;
+  -moz-box-shadow: 0px -1px 7px -5px rgba(0, 0, 0, 0.75) inset;
+  
+  border: 1px solid #124e89;
+  background-image: linear-gradient(#007dc3, #0067b1);
+  color: #fff;
+}
+.btncardnew:disabled{
+  border: 1px solid #cecece;
+  color: #cecece;
+  background-color: #f8f4e5;
+  background-image: linear-gradient(#f8f4e5, #f1eee1);
+}
+.btncardnew:active {
+  background-color: #5b89c1;
+  color: white;
+  box-shadow: 0px -1px 7px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px -1px 7px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 7px -5px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(#0067b1, #007dc3);
+  color: #fff;
+}
+@media (min-width: 200px) and (max-width: 816px) {
+  .protegida {
+    display: none;
+  }
+  .derecha {
+    display: none;
+  }
+  .cuerpo > .section > .principal {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+  }
+}
